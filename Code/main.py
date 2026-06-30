@@ -10,7 +10,6 @@ from pymongo import MongoClient
 from datetime import datetime
 import os
 
-
 CSV_PATH = os.path.join(os.path.dirname(__file__), "data.csv")
 MONGO_URI = "mongodb://localhost:27017/"
 DB_NAME = "air_quality_db"
